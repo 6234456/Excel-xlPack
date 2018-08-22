@@ -1,10 +1,11 @@
 Sub main()
     
     Dim pack As New xlPack
-    
+
     With pack
-        .ini
-        .addClassModules Split("Dicts_Nodes_Lists", "_")
+        .addClassModules "Dicts", "v2"
+        .addClassModules "Nodes"
+        .addClassModules "Lists"
         .fetchModuleFiles
     End With
 
