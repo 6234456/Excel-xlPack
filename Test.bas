@@ -1,12 +1,10 @@
-Sub main()
-    
+Sub fetch()
     Dim pack As New xlPack
-
     With pack
-        .addClassModules "Dicts", "v2"
+        .addClassModules "FormatUtil", repoName:="Excel-FormatUtil"
+        .addClassModules "Dicts"
         .addClassModules "Nodes"
         .addClassModules "Lists"
         .fetchModuleFiles
     End With
-
-End Sub
+  End Sub
