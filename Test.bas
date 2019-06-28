@@ -6,6 +6,8 @@ Sub fetch()
         .addClassModules "Dicts"
         .addClassModules "Nodes"
         .addClassModules "Lists"
+        .addClassModules "TreeSets"
+        .addClassModules "TreeMaps"
         .fetchModuleFiles
     End With
   End Sub
