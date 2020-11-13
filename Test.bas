@@ -7,6 +7,7 @@ Sub fetch()
         .addClassModules "Nodes"
         .addClassModules "Lists"
         .addClassModules "TreeSets"
+        .addClassModules "HashSets"
         .fetchModuleFiles
     End With
   End Sub
